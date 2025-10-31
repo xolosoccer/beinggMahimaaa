@@ -3,7 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobBroom - Find Referrers</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Software Engineer Jobs 2025 - Apply Now | Salary, Eligibility & Preparation Guide | JobBroom</title>
+    <meta name="title" content="Software Engineer Jobs 2025 - Apply Now | Salary, Eligibility & Preparation Guide | JobBroom">
+    <meta name="description" content="Software Engineer recruitment 2025 - Get complete details about eligibility, salary range (₹3-8 LPA), selection process, syllabus, preparation tips & direct apply link. Latest tech jobs for freshers & experienced.">
+    <meta name="keywords" content="software engineer jobs 2025, tech jobs India, fresher software jobs, IT jobs 2025, software developer recruitment, tech company hiring, engineering jobs, campus placement 2025, off campus drive, software engineer eligibility, tech job preparation, coding interview preparation, software engineer salary India, IT sector jobs, MNC jobs India, startup jobs, remote software jobs, work from home tech jobs, software engineer apply online, latest IT recruitment, tech career opportunities">
+    <meta name="author" content="JobBroom">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jobbroom.com/opportunities/software-engineer-2025">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://jobbroom.com/opportunities/software-engineer-2025">
+    <meta property="og:title" content="Software Engineer Jobs 2025 - Complete Guide & Apply Link">
+    <meta property="og:description" content="Latest Software Engineer recruitment details - eligibility, salary, preparation guide & direct apply link.">
+    <meta property="og:image" content="https://jobbroom.com/opportunity-og-image.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "Software Engineer",
+      "description": "Multiple software engineering positions available for freshers and experienced professionals",
+      "datePosted": "2025-01-15",
+      "validThrough": "2025-03-31",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Various Tech Companies"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "minValue": 300000,
+          "maxValue": 800000,
+          "unitText": "YEAR"
+        }
+      }
+    }
+    </script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -14,1679 +66,1193 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f8fcff 0%, #e3f2fd 100%);
+            background: linear-gradient(135deg, #e8f4f8 0%, #f0f0f0 100%);
             min-height: 100vh;
-            overflow-x: hidden;
-            position: relative;
+            line-height: 1.6;
         }
 
-        /* Floating particles background */
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
-            overflow: hidden;
-        }
-
-        .particle {
-            position: absolute;
-            width: 4px;
-            height: 4px;
-            background: #4A90E2;
-            border-radius: 50%;
-            opacity: 0.3;
-            animation: float 8s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0) translateX(0) rotate(0deg);
-                opacity: 0.3;
-            }
-            50% {
-                transform: translateY(-50px) translateX(30px) rotate(180deg);
-                opacity: 0.6;
-            }
-        }
-
-        /* Header */
         .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 15px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-            z-index: 100;
+            padding: 20px;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .header-left {
+        .logo {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 8px;
+            text-decoration: none;
         }
 
-        .logo-mini {
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 800;
-            font-size: 18px;
-            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+        .logo img {
+            height: 40px;
+            width: auto;
         }
 
-        .header-title h1 {
+        .logo-text {
             font-size: 20px;
-            color: #2C5186;
             font-weight: 700;
-        }
-
-        .header-title p {
-            font-size: 11px;
-            color: #666;
-            margin-top: -2px;
-        }
-
-        .header-right {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .icon-btn {
-            width: 38px;
-            height: 38px;
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4A90E2;
-            font-size: 18px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .icon-btn:hover {
-            transform: scale(1.1) rotate(10deg);
-            box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);
-        }
-
-        .icon-btn .badge {
-            position: absolute;
-            top: -4px;
-            right: -4px;
-            background: #F7C709;
-            color: white;
-            font-size: 10px;
-            font-weight: 700;
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid white;
-        }
-
-        /* Main Container */
-        .container {
-            padding-top: 80px;
-            padding-bottom: 100px;
-            min-height: 100vh;
-            position: relative;
-            z-index: 2;
-        }
-
-        /* Stats Bar */
-        .stats-bar {
-            background: white;
-            margin: 20px;
-            padding: 15px 20px;
-            border-radius: 20px;
-            display: flex;
-            justify-content: space-around;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            animation: slideDown 0.6s ease-out;
-        }
-
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-value {
-            font-size: 22px;
-            font-weight: 800;
-            color: #4A90E2;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px;
-        }
-
-        .stat-label {
-            font-size: 11px;
-            color: #666;
-            margin-top: 2px;
-            font-weight: 600;
-        }
-
-        .coin-icon {
-            color: #F7C709;
-            font-size: 18px;
-            animation: coinSpin 3s ease-in-out infinite;
-        }
-
-        @keyframes coinSpin {
-            0%, 100% { transform: rotateY(0deg); }
-            50% { transform: rotateY(180deg); }
-        }
-
-        /* Filter Bar */
-        .filter-bar {
-            margin: 20px 20px 10px;
-            display: flex;
-            gap: 10px;
-            overflow-x: auto;
-            padding-bottom: 10px;
-            scrollbar-width: none;
-        }
-
-        .filter-bar::-webkit-scrollbar {
-            display: none;
-        }
-
-        .filter-chip {
-            background: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 600;
             color: #2C5186;
-            border: 2px solid #e3f2fd;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-            gap: 6px;
         }
 
-        .filter-chip:hover, .filter-chip.active {
+        .back-btn {
             background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
             color: white;
-            border-color: #4A90E2;
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
-        }
-
-        /* Card Stack Container */
-        .card-stack-container {
-            position: relative;
-            width: 100%;
-            max-width: 420px;
-            height: 550px;
-            margin: 20px auto;
-            perspective: 1000px;
-        }
-
-        .swipe-hint {
-            text-align: center;
-            margin-bottom: 15px;
-            animation: fadeInUp 0.8s ease-out;
-        }
-
-        .swipe-hint p {
-            color: #666;
-            font-size: 13px;
-            font-weight: 600;
-        }
-
-        .swipe-arrows {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 10px;
-        }
-
-        .swipe-arrow {
-            font-size: 24px;
-            animation: bounce 1.5s ease-in-out infinite;
-        }
-
-        .swipe-arrow.left {
-            color: #ff6b6b;
-            animation-delay: 0s;
-        }
-
-        .swipe-arrow.right {
-            color: #4A90E2;
-            animation-delay: 0.3s;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateX(0); }
-            50% { transform: translateX(-8px); }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Employee Card */
-        .employee-card {
-            position: absolute;
-            width: 100%;
-            background: white;
+            border: none;
+            padding: 10px 20px;
             border-radius: 25px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
-            overflow: hidden;
-            cursor: grab;
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            user-select: none;
-        }
-
-        .employee-card:active {
-            cursor: grabbing;
-        }
-
-        .employee-card.swiping {
-            transition: none;
-        }
-
-        .employee-card.swiped-right {
-            animation: swipeRight 0.5s ease-out forwards;
-        }
-
-        .employee-card.swiped-left {
-            animation: swipeLeft 0.5s ease-out forwards;
-        }
-
-        @keyframes swipeRight {
-            to {
-                transform: translateX(150%) rotate(30deg);
-                opacity: 0;
-            }
-        }
-
-        @keyframes swipeLeft {
-            to {
-                transform: translateX(-150%) rotate(-30deg);
-                opacity: 0;
-            }
-        }
-
-        /* Card styling for stack effect */
-        .employee-card:nth-child(2) {
-            transform: scale(0.95) translateY(10px);
-            opacity: 0.8;
-            z-index: 2;
-        }
-
-        .employee-card:nth-child(3) {
-            transform: scale(0.9) translateY(20px);
-            opacity: 0.6;
-            z-index: 1;
-        }
-
-        .employee-card:first-child {
-            z-index: 3;
-        }
-
-        /* Card Header Image */
-        .card-header-img {
-            height: 160px;
-            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .card-header-img::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-            animation: headerGlow 8s ease-in-out infinite;
-        }
-
-        @keyframes headerGlow {
-            0%, 100% { transform: translate(-50%, -50%); }
-            50% { transform: translate(-30%, -30%); }
-        }
-
-        /* Profile Section */
-        .profile-section {
-            position: relative;
-            padding: 0 20px;
-            margin-top: -50px;
-        }
-
-        .profile-avatar {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, #F7C709 0%, #ffa000 100%);
-            border-radius: 50%;
-            border: 5px solid white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 38px;
-            font-weight: 800;
-            color: white;
-            box-shadow: 0 8px 25px rgba(247, 199, 9, 0.4);
-            margin: 0 auto;
-            position: relative;
-        }
-
-        .verified-badge {
-            position: absolute;
-            bottom: 2px;
-            right: 2px;
-            width: 28px;
-            height: 28px;
-            background: #4A90E2;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 14px;
-            border: 3px solid white;
-            box-shadow: 0 2px 8px rgba(74, 144, 226, 0.4);
-        }
-
-        .profile-info {
-            text-align: center;
-            margin-top: 15px;
-        }
-
-        .profile-name {
-            font-size: 22px;
-            font-weight: 800;
-            color: #2C5186;
-            margin-bottom: 5px;
-        }
-
-        .profile-role {
-            font-size: 15px;
-            color: #4A90E2;
             font-weight: 600;
-            margin-bottom: 3px;
+            cursor: pointer;
+            transition: transform 0.3s;
         }
 
-        .profile-company {
-            font-size: 13px;
-            color: #666;
+        .back-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Ad Placeholder */
+        .ad-banner {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+            min-height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 5px;
-            margin-bottom: 8px;
+            color: #999;
+            font-weight: 600;
         }
 
-        .profile-meta {
+        .ad-banner.top {
+            min-height: 90px;
+        }
+
+        .ad-banner.sidebar {
+            min-height: 250px;
+            margin-bottom: 20px;
+        }
+
+        .ad-banner.inline {
+            min-height: 80px;
+            margin: 30px 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .hero-meta {
             display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 10px;
             flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            font-size: 14px;
         }
 
         .meta-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 12px;
-            color: #666;
-            background: #f8fcff;
-            padding: 5px 12px;
-            border-radius: 15px;
-        }
-
-        .meta-item i {
-            color: #4A90E2;
-        }
-
-        /* Profile Score */
-        .profile-score {
-            margin: 15px 20px;
-            background: linear-gradient(135deg, #fff9e6 0%, #ffeaa7 100%);
-            padding: 12px;
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .score-bar {
-            flex: 1;
-            height: 8px;
-            background: rgba(255, 255, 255, 0.5);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .score-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #F7C709 0%, #ffa000 100%);
-            border-radius: 10px;
-            transition: width 1s ease-out;
-            box-shadow: 0 0 10px rgba(247, 199, 9, 0.6);
-        }
-
-        .score-label {
-            font-size: 12px;
-            font-weight: 700;
-            color: #2C5186;
-        }
-
-        /* Bio Section */
-        .bio-section {
-            padding: 15px 20px;
-        }
-
-        .bio-text {
-            font-size: 13px;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 12px;
-        }
-
-        /* Tags */
-        .tags-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 15px;
-        }
-
-        .tag {
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-            color: #2C5186;
-            padding: 6px 12px;
-            border-radius: 15px;
-            font-size: 11px;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        /* Info Pills */
-        .info-pills {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
-
-        .info-pill {
-            background: white;
-            border: 2px solid #e3f2fd;
-            padding: 8px 14px;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 15px;
             border-radius: 20px;
-            font-size: 12px;
-            color: #666;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Alert Banner */
+        .alert-banner {
+            background: linear-gradient(135deg, #F7C709 0%, #ffa000 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 10px;
             font-weight: 600;
+            animation: pulse 2s infinite;
         }
 
-        .info-pill i {
-            color: #4A90E2;
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
         }
 
-        .info-pill.highlight {
-            background: linear-gradient(135deg, #fff9e6 0%, #ffeaa7 100%);
-            border-color: #F7C709;
+        /* Main Content Layout */
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
         }
 
-        /* Policy Note */
-        .policy-note {
-            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
-            padding: 12px;
-            border-radius: 12px;
-            font-size: 12px;
+        @media (min-width: 968px) {
+            .content-wrapper {
+                grid-template-columns: 1fr 300px;
+            }
+        }
+
+        /* Info Cards */
+        .info-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .info-card h2 {
             color: #2C5186;
-            line-height: 1.5;
+            font-size: 24px;
             margin-bottom: 15px;
             display: flex;
+            align-items: center;
             gap: 10px;
-            align-items: flex-start;
         }
 
-        .policy-note i {
-            color: #4caf50;
-            font-size: 16px;
-            margin-top: 2px;
-        }
-
-        /* Card Actions */
-        .card-actions {
-            padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 12px;
-        }
-
-        .action-btn {
-            aspect-ratio: 1;
-            border-radius: 50%;
-            border: none;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 5px;
-            cursor: pointer;
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            font-size: 20px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .action-btn:hover {
-            transform: scale(1.1) rotate(5deg);
-        }
-
-        .action-btn:active {
-            transform: scale(0.9);
-        }
-
-        .action-btn span {
-            font-size: 10px;
-            font-weight: 700;
-        }
-
-        .btn-skip {
-            background: linear-gradient(135deg, #ffebee 0%, #ef9a9a 100%);
-            color: #c62828;
-        }
-
-        .btn-save {
-            background: linear-gradient(135deg, #fff9e6 0%, #ffd54f 100%);
-            color: #f57f17;
-        }
-
-        .btn-message {
-            background: linear-gradient(135deg, #e3f2fd 0%, #90caf9 100%);
-            color: #1565c0;
-            position: relative;
-        }
-
-        .btn-message.locked::after {
-            content: '\f023';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            font-size: 10px;
-            background: #666;
-            color: white;
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .btn-connect {
-            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
-            color: white;
-            font-size: 24px;
-        }
-
-        /* No More Cards */
-        .no-cards {
-            text-align: center;
-            padding: 60px 20px;
-            animation: fadeInUp 0.8s ease-out;
-        }
-
-        .no-cards-icon {
-            font-size: 80px;
-            color: #e3f2fd;
-            margin-bottom: 20px;
-        }
-
-        .no-cards h3 {
-            font-size: 24px;
-            color: #2C5186;
-            margin-bottom: 10px;
-            font-weight: 800;
-        }
-
-        .no-cards p {
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 25px;
-            line-height: 1.6;
-        }
-
-        .reload-btn {
-            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
-            color: white;
-            border: none;
-            padding: 14px 30px;
-            border-radius: 25px;
-            font-size: 15px;
-            font-weight: 700;
-            cursor: pointer;
-            box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
-            transition: all 0.3s ease;
-        }
-
-        .reload-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(74, 144, 226, 0.5);
-        }
-
-        /* Modal Overlay */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(5px);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-            animation: fadeIn 0.3s ease-out;
-        }
-
-        .modal-overlay.active {
-            display: flex;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        /* Connection Request Modal */
-        .modal {
-            background: white;
-            border-radius: 25px;
-            max-width: 420px;
-            width: 90%;
-            max-height: 80vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: modalSlideUp 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        }
-
-        @keyframes modalSlideUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px) scale(0.9);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0) scale(1);
-            }
-        }
-
-        .modal-header {
-            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
-            padding: 20px;
-            position: relative;
-            color: white;
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            width: 32px;
-            height: 32px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            border: none;
-            color: white;
+        .info-card h3 {
+            color: #4A90E2;
             font-size: 18px;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
-        .modal-close:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: rotate(90deg);
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
         }
 
-        .modal-header h2 {
-            font-size: 22px;
+        .info-table tr {
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .info-table td {
+            padding: 12px;
+            font-size: 15px;
+        }
+
+        .info-table td:first-child {
+            font-weight: 600;
+            color: #2C5186;
+            width: 40%;
+        }
+
+        .info-table td:last-child {
+            color: #555;
+        }
+
+        /* List Styling */
+        .content-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content-list li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .content-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4A90E2;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 50%, #90caf9 100%);
+            border-left: 5px solid #4A90E2;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .highlight-box strong {
+            color: #2C5186;
+            font-size: 18px;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin: 20px 0;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #4A90E2 0%, #2C5186 100%);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -23px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            background: #4A90E2;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #4A90E2;
+        }
+
+        .timeline-item strong {
+            color: #2C5186;
+            display: block;
             margin-bottom: 5px;
         }
 
-        .modal-header p {
-            font-size: 13px;
-            opacity: 0.9;
+        /* Apply Button */
+        .apply-section {
+            background: linear-gradient(135deg, #F7C709 0%, #ffa000 100%);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(247, 199, 9, 0.3);
         }
 
-        .modal-body {
-            padding: 25px;
+        .apply-btn {
+            background: white;
+            color: #2C5186;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-decoration: none;
+            display: inline-block;
         }
 
-        .form-group {
+        .apply-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: sticky;
+            top: 100px;
+        }
+
+        .quick-info {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
             margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        .form-label {
-            display: block;
-            font-size: 13px;
+        .quick-info h3 {
+            color: #2C5186;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .quick-stat {
+            padding: 15px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .quick-stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .quick-stat-value {
+            font-size: 20px;
             font-weight: 700;
             color: #2C5186;
-            margin-bottom: 8px;
-        }
-
-        .form-select, .form-textarea {
-            width: 100%;
-            padding: 12px 15px;
-            border: 2px solid #e3f2fd;
-            border-radius: 12px;
-            font-size: 14px;
-            font-family: inherit;
-            transition: all 0.3s ease;
-            background: white;
-        }
-
-        .form-select:focus, .form-textarea:focus {
-            outline: none;
-            border-color: #4A90E2;
-            box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
-        }
-
-        .form-textarea {
-            resize: vertical;
-            min-height: 100px;
-        }
-
-        .char-count {
-            text-align: right;
-            font-size: 11px;
-            color: #999;
             margin-top: 5px;
         }
 
-        .request-type {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-bottom: 20px;
-        }
-
-        .request-option {
-            padding: 15px;
+        /* Syllabus Accordion */
+        .accordion-item {
+            background: white;
             border: 2px solid #e3f2fd;
-            border-radius: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #f8fcff 0%, #e3f2fd 100%);
             cursor: pointer;
-            transition: all 0.3s ease;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: #2C5186;
+            transition: background 0.3s;
         }
 
-        .request-option:hover {
-            border-color: #4A90E2;
-            background: #f8fcff;
-        }
-
-        .request-option.selected {
-            border-color: #4A90E2;
+        .accordion-header:hover {
             background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
         }
 
-        .request-option-label {
-            font-weight: 700;
-            color: #2C5186;
-            margin-bottom: 5px;
-            font-size: 14px;
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding: 0 20px;
         }
 
-        .request-option-price {
-            font-size: 12px;
-            color: #666;
+        .accordion-item.active .accordion-content {
+            max-height: 1000px;
+            padding: 20px;
+        }
+
+        .accordion-item.active .accordion-header i {
+            transform: rotate(180deg);
+        }
+
+        .accordion-header i {
+            transition: transform 0.3s;
+        }
+
+        /* Tags */
+        .tags {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-        }
-
-        .disclaimer {
-            background: linear-gradient(135deg, #fff9e6 0%, #ffeaa7 100%);
-            padding: 15px;
-            border-radius: 12px;
-            font-size: 11px;
-            color: #666;
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
-
-        .modal-actions {
-            display: flex;
+            flex-wrap: wrap;
             gap: 10px;
+            margin: 15px 0;
         }
 
-        .modal-btn {
-            flex: 1;
-            padding: 14px;
-            border: none;
-            border-radius: 12px;
-            font-size: 15px;
-            font-weight: 700;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .modal-btn-cancel {
-            background: #f0f0f0;
-            color: #666;
-        }
-
-        .modal-btn-cancel:hover {
-            background: #e0e0e0;
-        }
-
-        .modal-btn-send {
+        .tag {
             background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
             color: white;
-            box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
-        }
-
-        .modal-btn-send:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
-        }
-
-        .modal-btn-send:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Bottom Nav */
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: white;
-            padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
-            display: flex;
-            justify-content: space-around;
-            box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.1);
-            z-index: 100;
-        }
-
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 4px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            padding: 8px 12px;
-            border-radius: 12px;
-        }
-
-        .nav-item.active {
-            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-        }
-
-        .nav-icon {
-            font-size: 22px;
-            color: #999;
-            transition: all 0.3s ease;
-        }
-
-        .nav-item.active .nav-icon {
-            color: #4A90E2;
-            transform: scale(1.1);
-        }
-
-        .nav-label {
-            font-size: 11px;
-            color: #999;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 13px;
             font-weight: 600;
         }
 
-        .nav-item.active .nav-label {
-            color: #2C5186;
+        /* Disclaimer */
+        .disclaimer {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px 0;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #856404;
+        }
+
+        .disclaimer h3 {
+            color: #856404;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .disclaimer ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .disclaimer li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(180deg, #2C5186 0%, #1e3a5f 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 50px;
         }
 
         /* Responsive */
-        @media (max-width: 420px) {
-            .stats-bar {
-                margin: 15px;
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 24px;
             }
 
-            .card-stack-container {
-                height: 500px;
+            .info-card {
+                padding: 20px;
             }
 
-            .profile-name {
+            .info-card h2 {
                 font-size: 20px;
             }
+
+            .info-table td {
+                font-size: 14px;
+                padding: 10px 5px;
+            }
+
+            .info-table td:first-child {
+                width: 45%;
+            }
+
+            .apply-btn {
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+
+            .sidebar {
+                position: static;
+            }
+        }
+
+        /* Mobile Ad Optimization */
+        @media (max-width: 480px) {
+            .ad-banner.top {
+                min-height: 50px;
+                font-size: 12px;
+            }
+
+            .ad-banner.inline {
+                min-height: 50px;
+            }
+        }
+
+        /* Scroll to Top */
+        .scroll-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #4A90E2 0%, #2C5186 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 999;
+            transition: transform 0.3s;
+        }
+
+        .scroll-top:hover {
+            transform: scale(1.1);
+        }
+
+        .scroll-top.visible {
+            display: flex;
         }
     </style>
 </head>
 <body>
-    <!-- Particles Background -->
-    <div class="particles" id="particles"></div>
-
     <!-- Header -->
     <div class="header">
-        <div class="header-left">
-            <div class="logo-mini">JB</div>
-            <div class="header-title">
-                <h1>Find Referrers</h1>
-                <p>Swipe to connect</p>
-            </div>
+        <a href="index.html" class="logo">
+            <img src="assets/logoicon1.png" alt="JobBroom Logo">
+            <span class="logo-text">JobBroom</span>
+        </a>
+        <button class="back-btn" onclick="window.location.href='index.html'">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </button>
+    </div>
 
-    <!-- Main Container -->
+    <!-- Top Ad Banner -->
     <div class="container">
-        <!-- Stats Bar -->
-        <div class="stats-bar">
-            <div class="stat-item">
-                <div class="stat-value">
-                    <i class="fas fa-coins coin-icon"></i>
-                    <span>250</span>
-                </div>
-                <div class="stat-label">Your Coins</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">3/5</div>
-                <div class="stat-label">Free Requests</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value">12</div>
-                <div class="stat-label">Connections</div>
-            </div>
-        </div>
-
-        <!-- Filter Bar -->
-        <div class="filter-bar">
-            <div class="filter-chip active">
-                <i class="fas fa-fire"></i>
-                All
-            </div>
-            <div class="filter-chip">
-                <i class="fas fa-code"></i>
-                Tech
-            </div>
-            <div class="filter-chip">
-                <i class="fas fa-chart-line"></i>
-                Product
-            </div>
-            <div class="filter-chip">
-                <i class="fas fa-palette"></i>
-                Design
-            </div>
-            <div class="filter-chip">
-                <i class="fas fa-bullhorn"></i>
-                Marketing
-            </div>
-            <div class="filter-chip">
-                <i class="fas fa-briefcase"></i>
-                Sales
-            </div>
-        </div>
-
-        <!-- Swipe Hint -->
-        <div class="swipe-hint">
-            <p>👆 Swipe to find your perfect match</p>
-            <div class="swipe-arrows">
-                <div class="swipe-arrow left">← Skip</div>
-                <div class="swipe-arrow right">Connect →</div>
-            </div>
-        </div>
-
-        <!-- Card Stack -->
-        <div class="card-stack-container" id="cardStack">
-            <!-- Card 1 -->
-            <div class="employee-card" data-id="1">
-                <div class="card-header-img"></div>
-                
-                <div class="profile-section">
-                    <div class="profile-avatar">
-                        SK
-                        <div class="verified-badge">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="profile-info">
-                        <div class="profile-name">Sneha Kapoor</div>
-                        <div class="profile-role">Senior Software Engineer</div>
-                        <div class="profile-company">
-                            <i class="fas fa-building"></i>
-                            Google
-                        </div>
-                        
-                        <div class="profile-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-calendar-alt"></i>
-                                5 years
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-map-marker-alt"></i>
-                                Bangalore
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                8 mutual
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                Active 2h ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="profile-score">
-                    <div class="score-label">Profile Match: 92%</div>
-                    <div class="score-bar">
-                        <div class="score-fill" style="width: 92%;"></div>
-                    </div>
-                </div>
-
-                <div class="bio-section">
-                    <div class="bio-text">
-                        Passionate about building scalable systems and mentoring junior developers. Love connecting talented folks with opportunities at Google.
-                    </div>
-
-                    <div class="tags-container">
-                        <div class="tag">
-                            <i class="fas fa-code"></i>
-                            Python
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-code"></i>
-                            Java
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-database"></i>
-                            System Design
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-cloud"></i>
-                            Cloud
-                        </div>
-                    </div>
-
-                    <div class="info-pills">
-                        <div class="info-pill highlight">
-                            <i class="fas fa-star"></i>
-                            Top Referrer
-                        </div>
-                        <div class="info-pill">
-                            <i class="fas fa-handshake"></i>
-                            24 referrals made
-                        </div>
-                    </div>
-
-                    <div class="policy-note">
-                        <i class="fas fa-info-circle"></i>
-                        <div>
-                            <strong>Referral Policy:</strong> I review profiles carefully and refer candidates who match our team's requirements. Please include relevant project links.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-actions">
-                    <button class="action-btn btn-skip" onclick="swipeCard('left')">
-                        <i class="fas fa-times"></i>
-                        <span>Skip</span>
-                    </button>
-                    <button class="action-btn btn-save" onclick="saveProfile()">
-                        <i class="fas fa-bookmark"></i>
-                        <span>Save</span>
-                    </button>
-                    <button class="action-btn btn-message locked" onclick="messageProfile()">
-                        <i class="fas fa-comment"></i>
-                        <span>Message</span>
-                    </button>
-                    <button class="action-btn btn-connect" onclick="openConnectionModal()">
-                        <i class="fas fa-paper-plane"></i>
-                        <span>Connect</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="employee-card" data-id="2">
-                <div class="card-header-img"></div>
-                
-                <div class="profile-section">
-                    <div class="profile-avatar">
-                        RM
-                        <div class="verified-badge">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="profile-info">
-                        <div class="profile-name">Rahul Mehta</div>
-                        <div class="profile-role">Product Manager</div>
-                        <div class="profile-company">
-                            <i class="fas fa-building"></i>
-                            Microsoft
-                        </div>
-                        
-                        <div class="profile-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-calendar-alt"></i>
-                                7 years
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-map-marker-alt"></i>
-                                Hyderabad
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                5 mutual
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                Active 5h ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="profile-score">
-                    <div class="score-label">Profile Match: 85%</div>
-                    <div class="score-bar">
-                        <div class="score-fill" style="width: 85%;"></div>
-                    </div>
-                </div>
-
-                <div class="bio-section">
-                    <div class="bio-text">
-                        Building AI-powered products that impact millions. Always looking for talented PMs and engineers who want to make a difference.
-                    </div>
-
-                    <div class="tags-container">
-                        <div class="tag">
-                            <i class="fas fa-lightbulb"></i>
-                            Product Strategy
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-robot"></i>
-                            AI/ML
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-chart-line"></i>
-                            Analytics
-                        </div>
-                    </div>
-
-                    <div class="info-pills">
-                        <div class="info-pill">
-                            <i class="fas fa-handshake"></i>
-                            15 referrals made
-                        </div>
-                    </div>
-
-                    <div class="policy-note">
-                        <i class="fas fa-info-circle"></i>
-                        <div>
-                            <strong>Referral Policy:</strong> Open to referring product-minded individuals. Share your product case studies or projects.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-actions">
-                    <button class="action-btn btn-skip" onclick="swipeCard('left')">
-                        <i class="fas fa-times"></i>
-                        <span>Skip</span>
-                    </button>
-                    <button class="action-btn btn-save" onclick="saveProfile()">
-                        <i class="fas fa-bookmark"></i>
-                        <span>Save</span>
-                    </button>
-                    <button class="action-btn btn-message locked" onclick="messageProfile()">
-                        <i class="fas fa-comment"></i>
-                        <span>Message</span>
-                    </button>
-                    <button class="action-btn btn-connect" onclick="openConnectionModal()">
-                        <i class="fas fa-paper-plane"></i>
-                        <span>Connect</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="employee-card" data-id="3">
-                <div class="card-header-img"></div>
-                
-                <div class="profile-section">
-                    <div class="profile-avatar">
-                        AP
-                        <div class="verified-badge">
-                            <i class="fas fa-check"></i>
-                        </div>
-                    </div>
-                    
-                    <div class="profile-info">
-                        <div class="profile-name">Ananya Patel</div>
-                        <div class="profile-role">UX Designer</div>
-                        <div class="profile-company">
-                            <i class="fas fa-building"></i>
-                            Amazon
-                        </div>
-                        
-                        <div class="profile-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-calendar-alt"></i>
-                                4 years
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-map-marker-alt"></i>
-                                Mumbai
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                3 mutual
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                Active 1d ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="profile-score">
-                    <div class="score-label">Profile Match: 78%</div>
-                    <div class="score-bar">
-                        <div class="score-fill" style="width: 78%;"></div>
-                    </div>
-                </div>
-
-                <div class="bio-section">
-                    <div class="bio-text">
-                        Creating delightful user experiences for millions of customers. Passionate about design systems and accessibility.
-                    </div>
-
-                    <div class="tags-container">
-                        <div class="tag">
-                            <i class="fas fa-palette"></i>
-                            UI/UX
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-mobile-alt"></i>
-                            Mobile Design
-                        </div>
-                        <div class="tag">
-                            <i class="fas fa-figma"></i>
-                            Figma
-                        </div>
-                    </div>
-
-                    <div class="info-pills">
-                        <div class="info-pill">
-                            <i class="fas fa-handshake"></i>
-                            8 referrals made
-                        </div>
-                    </div>
-
-                    <div class="policy-note">
-                        <i class="fas fa-info-circle"></i>
-                        <div>
-                            <strong>Referral Policy:</strong> Looking for designers with strong portfolios. Please share your Dribbble or Behance profile.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-actions">
-                    <button class="action-btn btn-skip" onclick="swipeCard('left')">
-                        <i class="fas fa-times"></i>
-                        <span>Skip</span>
-                    </button>
-                    <button class="action-btn btn-save" onclick="saveProfile()">
-                        <i class="fas fa-bookmark"></i>
-                        <span>Save</span>
-                    </button>
-                    <button class="action-btn btn-message locked" onclick="messageProfile()">
-                        <i class="fas fa-comment"></i>
-                        <span>Message</span>
-                    </button>
-                    <button class="action-btn btn-connect" onclick="openConnectionModal()">
-                        <i class="fas fa-paper-plane"></i>
-                        <span>Connect</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- No More Cards Message -->
-        <div class="no-cards" id="noCards" style="display: none;">
-            <div class="no-cards-icon">
-                <i class="fas fa-check-circle"></i>
-            </div>
-            <h3>You're All Caught Up!</h3>
-            <p>You've reviewed all available referrers matching your criteria. Check back later for new connections or adjust your filters.</p>
-            <button class="reload-btn" onclick="reloadCards()">
-                <i class="fas fa-redo"></i> Load More
-            </button>
+        <div class="ad-banner top">
+            📢 Advertisement Space - Top Banner (728x90 or Responsive)
         </div>
     </div>
 
-    <!-- Connection Request Modal -->
-    <div class="modal-overlay" id="connectionModal">
-        <div class="modal">
-            <div class="modal-header">
-                <button class="modal-close" onclick="closeConnectionModal()">
-                    <i class="fas fa-times"></i>
-                </button>
-                <h2>Send Connection Request</h2>
-                <p>Make a great first impression!</p>
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="hero">
+            <h1>💼 Software Engineer Recruitment 2025 - Latest Tech Opportunities</h1>
+            <p style="font-size: 16px; margin-top: 10px; opacity: 0.95;">Multiple positions available for freshers and experienced professionals across leading tech companies. Get complete details about eligibility, salary, selection process & direct apply links.</p>
+            <div class="hero-meta">
+                <span class="meta-item">📅 Last Date: March 31, 2025</span>
+                <span class="meta-item">📍 Location: PAN India / Remote</span>
+                <span class="meta-item">💰 Salary: ₹3-8 LPA (Approx)</span>
+                <span class="meta-item">🎯 Freshers & Experienced</span>
             </div>
-            
-            <div class="modal-body">
-                <div class="form-group">
-                    <label class="form-label">Select Resume</label>
-                    <select class="form-select" id="resumeSelect">
-                        <option>Software Engineer Resume (Updated Dec 2024)</option>
-                        <option>Full Stack Developer Resume</option>
-                        <option>Backend Developer Resume</option>
-                    </select>
-                </div>
+        </div>
 
-                <div class="form-group">
-                    <label class="form-label">Personal Note (Optional but recommended)</label>
-                    <textarea class="form-textarea" id="personalNote" maxlength="300" placeholder="Hi! I'm interested in SDE roles at your company. I have 3 years of experience in Python and distributed systems..."></textarea>
-                    <div class="char-count">
-                        <span id="charCount">0</span>/300 characters
+        <!-- Alert -->
+        <div class="alert-banner">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Apply soon! Multiple companies are actively hiring. Limited time offers for early applicants.</span>
+        </div>
+
+        <!-- Content Wrapper -->
+        <div class="content-wrapper">
+            <!-- Main Content -->
+            <div class="main-content">
+                
+                <!-- Overview -->
+                <div class="info-card">
+                    <h2><i class="fas fa-info-circle"></i> Opportunity Overview</h2>
+                    <p style="color: #555; line-height: 1.8; font-size: 15px;">
+                        Various tech companies across India are actively recruiting talented Software Engineers for full-time positions in 2025. These opportunities span multiple technology domains including web development, mobile applications, cloud computing, artificial intelligence, and data engineering. Both freshers and experienced professionals are encouraged to apply based on their skill level and experience.
+                    </p>
+                    
+                    <div class="tags">
+                        <span class="tag">Software Development</span>
+                        <span class="tag">Full Stack</span>
+                        <span class="tag">Backend</span>
+                        <span class="tag">Frontend</span>
+                        <span class="tag">DevOps</span>
+                        <span class="tag">Cloud</span>
+                    </div>
+
+                    <div class="highlight-box">
+                        <strong>📌 Key Highlight:</strong><br>
+                        This is an excellent opportunity for engineering graduates and professionals looking to build or advance their careers in the software industry. Multiple openings with competitive packages and growth opportunities.
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <label class="form-label">Request Type</label>
-                    <div class="request-type">
-                        <div class="request-option selected" onclick="selectRequestType('free')">
-                            <div class="request-option-label">Free Request</div>
-                            <div class="request-option-price">
-                                <i class="fas fa-gift"></i>
-                                3 remaining this week
-                            </div>
+                <!-- Inline Ad -->
+                <div class="ad-banner inline">
+                    📢 Advertisement Space - Inline (336x280 or Responsive)
+                </div>
+
+                <!-- Important Dates -->
+                <div class="info-card">
+                    <h2><i class="fas fa-calendar-alt"></i> Important Dates & Timeline</h2>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 14px;">Mark these dates and plan your preparation accordingly. Timelines may vary by company.</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <strong>Application Start Date</strong>
+                            <span style="color: #555;">January 15, 2025 (Ongoing)</span>
                         </div>
-                        <div class="request-option" onclick="selectRequestType('paid')">
-                            <div class="request-option-label">Priority Request</div>
-                            <div class="request-option-price">
-                                <i class="fas fa-coins"></i>
-                                50 coins
-                            </div>
+                        <div class="timeline-item">
+                            <strong>Application Last Date</strong>
+                            <span style="color: #555;">March 31, 2025 (Tentative)</span>
+                        </div>
+                        <div class="timeline-item">
+                            <strong>Online Assessment</strong>
+                            <span style="color: #555;">April 2025 (Expected)</span>
+                        </div>
+                        <div class="timeline-item">
+                            <strong>Technical Interviews</strong>
+                            <span style="color: #555;">April-May 2025 (Expected)</span>
+                        </div>
+                        <div class="timeline-item">
+                            <strong>Final Results</strong>
+                            <span style="color: #555;">May-June 2025 (Expected)</span>
+                        </div>
+                    </div>
+
+                    <p style="background: #fff3cd; padding: 12px; border-radius: 8px; font-size: 14px; color: #856404; margin-top: 15px;">
+                        <i class="fas fa-info-circle"></i> <strong>Note:</strong> Dates are approximate and may vary by company. Always verify on official company career portals.
+                    </p>
+                </div>
+
+                <!-- Eligibility -->
+                <div class="info-card">
+                    <h2><i class="fas fa-user-check"></i> Eligibility Criteria</h2>
+                    
+                    <h3>📚 Educational Qualifications</h3>
+                    <ul class="content-list">
+                        <li>Bachelor's degree (B.Tech/B.E) in Computer Science, IT, Electronics, or related engineering field</li>
+                        <li>Master's degree (M.Tech/MCA) candidates are also eligible</li>
+                        <li>Minimum aggregate marks: Around 60% or above (may vary by company)</li>
+                        <li>No active backlogs at the time of application (for most companies)</li>
+                    </ul>
+
+                    <h3>💼 Experience Requirements</h3>
+                    <ul class="content-list">
+                        <li><strong>Freshers:</strong> 0-1 years of experience welcome</li>
+                        <li><strong>Experienced:</strong> 1-5 years in relevant technology domains</li>
+                        <li>Prior internships or project experience is a plus</li>
+                    </ul>
+
+                    <h3>⚙️ Technical Skills (Preferred)</h3>
+                    <ul class="content-list">
+                        <li>Strong programming skills in Java, Python, C++, JavaScript, or similar languages</li>
+                        <li>Understanding of data structures and algorithms</li>
+                        <li>Knowledge of databases (SQL/NoSQL)</li>
+                        <li>Familiarity with frameworks like React, Angular, Node.js, Django, or Spring</li>
+                        <li>Basic understanding of cloud platforms (AWS, Azure, GCP) is beneficial</li>
+                        <li>Version control systems (Git) knowledge</li>
+                    </ul>
+
+                    <h3>🎯 Other Requirements</h3>
+                    <ul class="content-list">
+                        <li>Good problem-solving and analytical skills</li>
+                        <li>Effective communication abilities</li>
+                        <li>Team collaboration experience</li>
+                        <li>Willingness to learn new technologies</li>
+                    </ul>
+                </div>
+
+                <!-- Inline Ad -->
+                <div class="ad-banner inline">
+                    📢 Advertisement Space - Inline (336x280 or Responsive)
+                </div>
+
+                <!-- Salary & Benefits -->
+                <div class="info-card">
+                    <h2><i class="fas fa-money-bill-wave"></i> Salary Package & Benefits</h2>
+                    
+                    <table class="info-table">
+                        <tr>
+                            <td>💰 Salary Range (Freshers)</td>
+                            <td>₹3 - 6 Lakhs per annum (Approx)</td>
+                        </tr>
+                        <tr>
+                            <td>💰 Salary Range (Experienced)</td>
+                            <td>₹5 - 12 Lakhs per annum (Approx)</td>
+                        </tr>
+                        <tr>
+                            <td>🏥 Health Benefits</td>
+                            <td>Medical insurance for self and family</td>
+                        </tr>
+                        <tr>
+                            <td>🏖️ Leave Policy</td>
+                            <td>20-25 days annual leave (varies by company)</td>
+                        </tr>
+                        <tr>
+                            <td>📚 Learning & Development</td>
+                            <td>Training programs, certifications, conferences</td>
+                        </tr>
+                        <tr>
+                            <td>🏢 Work Environment</td>
+                            <td>Hybrid/Remote options, flexible timing</td>
+                        </tr>
+                        <tr>
+                            <td>🚀 Career Growth</td>
+                            <td>Fast-track promotions, mentorship programs</td>
+                        </tr>
+                        <tr>
+                            <td>🎁 Other Perks</td>
+                            <td>Performance bonuses, stock options (selected companies)</td>
+                        </tr>
+                    </table>
+
+                    <p style="background: #e3f2fd; padding: 15px; border-radius: 8px; font-size: 14px; color: #2C5186; margin-top: 15px;">
+                        <i class="fas fa-lightbulb"></i> <strong>Note:</strong> Salary figures are approximate and based on industry standards. Actual compensation may vary based on company size, location, candidate profile, and negotiation. Always verify exact details during the interview process.
+                    </p>
+                </div>
+
+                <!-- Selection Process -->
+                <div class="info-card">
+                    <h2><i class="fas fa-tasks"></i> Selection Process</h2>
+                    
+                    <p style="color: #555; margin-bottom: 20px;">The typical recruitment process consists of multiple rounds designed to assess technical and soft skills:</p>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span><strong>Round 1:</strong> Online Assessment / Aptitude Test</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <ul class="content-list">
+                                <li><strong>Duration:</strong> 60-90 minutes (approximately)</li>
+                                <li><strong>Topics:</strong> Quantitative aptitude, logical reasoning, verbal ability</li>
+                                <li><strong>Coding Questions:</strong> 2-3 programming problems (easy to medium difficulty)</li>
+                                <li><strong>Format:</strong> Multiple choice questions + coding challenges</li>
+                                <li><strong>Tip:</strong> Practice on platforms like LeetCode, HackerRank, CodeChef</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span><strong>Round 2:</strong> Technical Interview (DSA Focus)</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <ul class="content-list">
+                                <li><strong>Duration:</strong> 45-60 minutes</li>
+                                <li><strong>Focus Areas:</strong> Data structures (arrays, trees, graphs, hash maps)</li>
+                                <li><strong>Algorithms:</strong> Sorting, searching, dynamic programming, greedy</li>
+                                <li><strong>Problem Solving:</strong> 2-3 coding problems on whiteboard/screen</li>
+                                <li><strong>Communication:</strong> Explain your approach clearly</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span><strong>Round 3:</strong> Technical Interview (System Design / Projects)</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <ul class="content-list">
+                                <li><strong>Duration:</strong> 45-60 minutes</li>
+                                <li><strong>System Design:</strong> Design scalable systems (for experienced roles)</li>
+                                <li><strong>Project Discussion:</strong> Deep dive into your resume projects</li>
+                                <li><strong>Technologies:</strong> Frameworks, databases, architecture patterns</li>
+                                <li><strong>Problem Solving:</strong> Real-world scenario-based questions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span><strong>Round 4:</strong> HR / Behavioral Interview</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <ul class="content-list">
+                                <li><strong>Duration:</strong> 20-30 minutes</li>
+                                <li><strong>Topics:</strong> Career goals, motivation, team collaboration</li>
+                                <li><strong>Behavioral:</strong> STAR method questions (Situation, Task, Action, Result)</li>
+                                <li><strong>Cultural Fit:</strong> Company values alignment</li>
+                                <li><strong>Salary Discussion:</strong> Expectations and negotiation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p style="background: #fff3cd; padding: 12px; border-radius: 8px; font-size: 14px; color: #856404; margin-top: 20px;">
+                        <i class="fas fa-info-circle"></i> <strong>Important:</strong> Number of rounds may vary by company and position level. Some companies may include additional rounds like managerial interviews or cultural fit assessments.
+                    </p>
+                </div>
+
+                <!-- Inline Ad -->
+                <div class="ad-banner inline">
+                    📢 Advertisement Space - Inline (336x280 or Responsive)
+                </div>
+
+                <!-- Syllabus & Preparation -->
+                <div class="info-card">
+                    <h2><i class="fas fa-book"></i> Exam Syllabus & Preparation Topics</h2>
+                    
+                    <p style="color: #555; margin-bottom: 20px;">Comprehensive syllabus breakdown for online assessment and technical interviews:</p>
+
+                    <h3>💻 Programming & Data Structures</h3>
+                    <ul class="content-list">
+                        <li><strong>Arrays & Strings:</strong> Two pointers, sliding window, subarrays, string manipulation</li>
+                        <li><strong>Linked Lists:</strong> Reversal, cycle detection, merge operations</li>
+                        <li><strong>Stacks & Queues:</strong> Implementation, monotonic stacks, deque</li>
+                        <li><strong>Trees:</strong> Binary trees, BST, AVL trees, tree traversals (inorder, preorder, postorder)</li>
+                        <li><strong>Graphs:</strong> BFS, DFS, shortest path (Dijkstra, Bellman-Ford), MST</li>
+                        <li><strong>Hash Tables:</strong> HashMap, HashSet, collision handling</li>
+                        <li><strong>Heaps:</strong> Min-heap, max-heap, priority queues</li>
+                    </ul>
+
+                    <h3>🧮 Algorithms</h3>
+                    <ul class="content-list">
+                        <li><strong>Sorting:</strong> Quick sort, merge sort, heap sort, counting sort</li>
+                        <li><strong>Searching:</strong> Binary search, variants, rotated arrays</li>
+                        <li><strong>Dynamic Programming:</strong> Knapsack, LCS, LIS, matrix chain multiplication</li>
+                        <li><strong>Greedy:</strong> Activity selection, Huffman coding, interval scheduling</li>
+                        <li><strong>Backtracking:</strong> N-Queens, sudoku solver, permutations</li>
+                        <li><strong>Divide & Conquer:</strong> Merge sort, quick select</li>
+                        <li><strong>Bit Manipulation:</strong> XOR tricks, bitwise operations</li>
+                    </ul>
+
+                    <h3>🗄️ Database Management</h3>
+                    <ul class="content-list">
+                        <li>SQL queries (SELECT, JOIN, GROUP BY, HAVING, subqueries)</li>
+                        <li>Database normalization (1NF, 2NF, 3NF, BCNF)</li>
+                        <li>Indexing and optimization techniques</li>
+                        <li>Transactions and ACID properties</li>
+                        <li>NoSQL basics (MongoDB, Cassandra concepts)</li>
+                    </ul>
+
+                    <h3>🌐 Operating Systems & Networks</h3>
+                    <ul class="content-list">
+                        <li><strong>OS:</strong> Process scheduling, deadlock, memory management, paging</li>
+                        <li><strong>Networking:</strong> TCP/IP, HTTP/HTTPS, REST APIs, DNS</li>
+                        <li><strong>Concurrency:</strong> Threads, mutex, semaphores, race conditions</li>
+                    </ul>
+
+                    <h3>🏗️ System Design (For Experienced)</h3>
+                    <ul class="content-list">
+                        <li>Scalability concepts (horizontal vs vertical scaling)</li>
+                        <li>Load balancing and caching strategies</li>
+                        <li>Database sharding and replication</li>
+                        <li>Microservices architecture</li>
+                        <li>Design patterns (Singleton, Factory, Observer, etc.)</li>
+                        <li>CAP theorem and distributed systems</li>
+                    </ul>
+
+                    <h3>📊 Aptitude & Reasoning</h3>
+                    <ul class="content-list">
+                        <li>Quantitative aptitude (time & work, percentage, profit & loss)</li>
+                        <li>Logical reasoning (puzzles, series, patterns)</li>
+                        <li>Verbal ability (comprehension, grammar, vocabulary)</li>
+                    </ul>
+                </div>
+
+                <!-- Preparation Tips -->
+                <div class="info-card">
+                    <h2><i class="fas fa-lightbulb"></i> Preparation Strategy & Tips</h2>
+                    
+                    <h3>📅 4-Week Preparation Plan</h3>
+                    <ul class="content-list">
+                        <li><strong>Week 1-2:</strong> Focus on Data Structures (Arrays, Strings, Linked Lists, Trees). Solve 3-5 problems daily on LeetCode/HackerRank</li>
+                        <li><strong>Week 3:</strong> Master algorithms (Sorting, Searching, DP, Greedy). Practice medium to hard problems</li>
+                        <li><strong>Week 4:</strong> System design basics, project revision, mock interviews, company-specific preparation</li>
+                    </ul>
+
+                    <h3>🎯 Top Tips for Success</h3>
+                    <ul class="content-list">
+                        <li>Practice consistently on coding platforms (LeetCode, GeeksforGeeks, InterviewBit)</li>
+                        <li>Focus on understanding concepts rather than memorizing solutions</li>
+                        <li>Revise your resume projects thoroughly - be ready to explain architecture, challenges, solutions</li>
+                        <li>Practice explaining your thought process verbally (mock interviews with peers)</li>
+                        <li>Time management is crucial - practice solving problems within time limits</li>
+                        <li>Review commonly asked interview questions for specific companies</li>
+                        <li>Work on communication skills - articulate your approach clearly</li>
+                        <li>Prepare behavioral stories using STAR method</li>
+                        <li>Stay updated with latest tech trends and industry news</li>
+                    </ul>
+
+                    <h3>📚 Recommended Resources</h3>
+                    <ul class="content-list">
+                        <li><strong>Books:</strong> "Cracking the Coding Interview" by Gayle Laakmann McDowell</li>
+                        <li><strong>Online Platforms:</strong> LeetCode (Top Interview 150), HackerRank, CodeChef</li>
+                        <li><strong>YouTube Channels:</strong> Tech interview preparation channels, system design tutorials</li>
+                        <li><strong>GitHub:</strong> Explore open-source projects in your domain</li>
+                        <li><strong>Practice Sites:</strong> InterviewBit, GeeksforGeeks, Codeforces</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <strong>💡 Pro Tip:</strong><br>
+                        Companies often repeat similar question patterns. Research company-specific interview experiences on platforms like Glassdoor, LeetCode Discuss, and GeeksforGeeks to understand what to expect.
+                    </div>
+                </div>
+
+                <!-- Inline Ad -->
+                <div class="ad-banner inline">
+                    📢 Advertisement Space - Inline (336x280 or Responsive)
+                </div>
+
+                <!-- How to Apply -->
+                <div class="info-card">
+                    <h2><i class="fas fa-paper-plane"></i> How to Apply</h2>
+                    
+                    <h3>📋 Application Process</h3>
+                    <ul class="content-list">
+                        <li>Visit the official career portals of respective companies</li>
+                        <li>Create an account or login if you already have one</li>
+                        <li>Fill in personal, educational, and professional details accurately</li>
+                        <li>Upload your updated resume (PDF format preferred, size under 2MB)</li>
+                        <li>Complete any additional assessments if required during application</li>
+                        <li>Submit the application before the deadline</li>
+                        <li>Note down your application ID for future reference</li>
+                    </ul>
+
+                    <h3>📄 Documents Required</h3>
+                    <ul class="content-list">
+                        <li>Updated resume highlighting relevant skills and projects</li>
+                        <li>Educational certificates (10th, 12th, graduation marksheets)</li>
+                        <li>Valid government-issued photo ID proof</li>
+                        <li>Passport-size photograph (recent)</li>
+                        <li>Experience certificates (if applicable)</li>
+                        <li>Any relevant certifications or achievements</li>
+                    </ul>
+
+                    <h3>✅ Application Checklist</h3>
+                    <ul class="content-list">
+                        <li>Resume is ATS-friendly and error-free</li>
+                        <li>Contact information is correct and professional</li>
+                        <li>Skills mentioned match job requirements</li>
+                        <li>Projects are described with impact and technologies used</li>
+                        <li>GitHub/Portfolio links are working and updated</li>
+                        <li>All sections of application form are complete</li>
+                    </ul>
+                </div>
+
+                <!-- Apply Section -->
+                <div class="apply-section">
+                    <h2 style="color: white; margin-bottom: 15px; font-size: 28px;">🚀 Ready to Apply?</h2>
+                    <p style="color: white; margin-bottom: 20px; font-size: 16px;">Click below to visit official career portals and submit your application</p>
+                    <a href="#" class="apply-btn" onclick="alert('This will redirect to official company career portals. Always verify URLs before applying.')">
+                        <i class="fas fa-external-link-alt"></i> Apply on Official Portal
+                    </a>
+                    <p style="color: white; margin-top: 15px; font-size: 13px; opacity: 0.9;">
+                        ⚠️ Always apply through official company websites. Beware of fake job postings and never pay any fee for applications.
+                    </p>
+                </div>
+
+                <!-- Work Culture & Reviews -->
+                <div class="info-card">
+                    <h2><i class="fas fa-star"></i> Work Culture & Employee Reviews</h2>
+                    
+                    <p style="color: #555; margin-bottom: 20px;">Based on general industry insights and employee feedback from various platforms:</p>
+
+                    <h3>👍 Positive Aspects</h3>
+                    <ul class="content-list">
+                        <li><strong>Learning Opportunities:</strong> Exposure to latest technologies, regular training sessions, and conferences</li>
+                        <li><strong>Work-Life Balance:</strong> Flexible working hours, remote/hybrid options at most companies</li>
+                        <li><strong>Career Growth:</strong> Clear promotion paths, mentorship programs, internal mobility</li>
+                        <li><strong>Collaborative Environment:</strong> Team-oriented culture, knowledge sharing sessions</li>
+                        <li><strong>Modern Infrastructure:</strong> Well-equipped offices, latest tools and technologies</li>
+                        <li><strong>Diverse Projects:</strong> Opportunity to work on varied and challenging problems</li>
+                    </ul>
+
+                    <h3>⚠️ Areas to Consider</h3>
+                    <ul class="content-list">
+                        <li>Some companies may have tight deadlines during project releases</li>
+                        <li>Work intensity may vary based on project phase and team</li>
+                        <li>Onsite opportunities depend on company policies and client requirements</li>
+                        <li>Appraisal cycles and increments vary by organization</li>
+                    </ul>
+
+                    <p style="background: #e3f2fd; padding: 15px; border-radius: 8px; font-size: 14px; color: #2C5186; margin-top: 15px;">
+                        <i class="fas fa-info-circle"></i> <strong>Note:</strong> Work culture varies significantly across companies, teams, and locations. Research specific companies on Glassdoor, AmbitionBox, or similar platforms for authentic employee reviews before applying.
+                    </p>
+                </div>
+
+                <!-- FAQ -->
+                <div class="info-card">
+                    <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span>Can freshers with no prior experience apply?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Yes, absolutely! Many companies actively recruit fresh graduates. Focus on building strong programming fundamentals, work on personal projects, and showcase problem-solving skills. Internship experience is a plus but not mandatory for fresher roles.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span>Is there any application fee?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>No, legitimate companies never charge any fee for job applications or recruitment processes. If any website asks for payment, it's likely a scam. Always apply through official company career portals only.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span>What programming languages should I focus on?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Master at least one language thoroughly - Java, Python, or C++ are most commonly used. Focus on understanding data structures and algorithms rather than syntax. Most companies allow you to code in your preferred language during interviews.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span>How long does the entire recruitment process take?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Typically 2-6 weeks from application to final offer, but this varies by company. Some fast-track their processes while others may take longer. You'll usually be informed about timelines after clearing each round.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <span>What if I don't have experience in all mentioned technologies?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>It's okay! Companies look for problem-solving abilities and learning potential more than specific tech stack knowledge. Highlight your strengths, willingness to learn, and any relevant projects. Most companies provide training for required technologies post-joining.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Disclaimer -->
                 <div class="disclaimer">
-                    <strong>⚠️ Important:</strong> Referrals are at the discretion of the employee. JobBroom facilitates connections but does not guarantee referrals, interviews, or job offers. Be professional and respectful in your communication.
+                    <h3><i class="fas fa-exclamation-triangle"></i> Important Disclaimer</h3>
+                    <p><strong>Please read carefully before proceeding:</strong></p>
+                    <ul>
+                        <li><strong>Information Accuracy:</strong> All information provided on this page is compiled from publicly available sources and is intended for informational purposes only. Details such as salary, dates, eligibility criteria, and selection processes are approximate and may vary by company. JobBroom is not responsible for any changes or inaccuracies.</li>
+                        
+                        <li><strong>No Affiliation:</strong> JobBroom is NOT affiliated with, endorsed by, or connected to any of the companies mentioned on this page. We are an independent career information platform that aggregates and presents publicly available job opportunity details.</li>
+                        
+                        <li><strong>Company Names & Trademarks:</strong> All company names, logos, and trademarks mentioned belong to their respective owners. Their use on this website is purely for informational purposes to help job seekers identify opportunities. We do not claim any ownership or rights over these trademarks.</li>
+                        
+                        <li><strong>Verification Required:</strong> Candidates MUST verify all details including eligibility, salary, dates, and application procedures on the official company career portals before applying. JobBroom cannot guarantee the accuracy or completeness of information as it may change without notice.</li>
+                        
+                        <li><strong>No Guarantee:</strong> JobBroom does not guarantee job placement, interview calls, or selection. The recruitment process is entirely at the discretion of the respective hiring companies. We merely provide information to help candidates discover opportunities.</li>
+                        
+                        <li><strong>Beware of Fraud:</strong> Never pay any money for job applications. Legitimate companies do not charge fees for recruitment. Always apply through official company websites only. Report any suspicious activity.</li>
+                        
+                        <li><strong>External Links:</strong> Links to external websites (including company career portals) are provided for convenience. JobBroom is not responsible for the content, privacy practices, or availability of external websites.</li>
+                        
+                        <li><strong>Content Changes:</strong> Information on this page may become outdated. We strive to keep content current but cannot guarantee real-time updates. Check official sources for latest information.</li>
+                        
+                        <li><strong>No Liability:</strong> JobBroom and its operators shall not be held liable for any direct or indirect consequences arising from the use of information provided on this website. Use this information at your own discretion.</li>
+                        
+                        <li><strong>Educational Purpose:</strong> This content is created for educational and career awareness purposes to help job seekers make informed decisions about opportunities available in the market.</li>
+                    </ul>
+                    
+                    <p style="margin-top: 15px; font-weight: 600;">By using this website, you acknowledge that you have read, understood, and agree to this disclaimer. If you do not agree, please do not use the information provided.</p>
                 </div>
 
-                <div class="modal-actions">
-                    <button class="modal-btn modal-btn-cancel" onclick="closeConnectionModal()">
-                        Cancel
-                    </button>
-                    <button class="modal-btn modal-btn-send" onclick="sendConnectionRequest()">
-                        <i class="fas fa-paper-plane"></i> Send Request
-                    </button>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Ad -->
+                <div class="ad-banner sidebar">
+                    📢 Advertisement Space - Sidebar (300x250)
+                </div>
+
+                <!-- Quick Info -->
+                <div class="quick-info">
+                    <h3>Quick Info</h3>
+                    <div class="quick-stat">
+                        <div class="quick-stat-label">Positions</div>
+                        <div class="quick-stat-value">Multiple</div>
+                    </div>
+                    <div class="quick-stat">
+                        <div class="quick-stat-label">Job Type</div>
+                        <div class="quick-stat-value">Full Time</div>
+                    </div>
+                    <div class="quick-stat">
+                        <div class="quick-stat-label">Experience</div>
+                        <div class="quick-stat-value">0-5 Years</div>
+                    </div>
+                    <div class="quick-stat">
+                        <div class="quick-stat-label">Apply By</div>
+                        <div class="quick-stat-value">Mar 31, 2025</div>
+                    </div>
+                </div>
+
+                <!-- Sidebar Ad -->
+                <div class="ad-banner sidebar">
+                    📢 Advertisement Space - Sidebar (300x600)
+                </div>
+
+                <!-- Related Opportunities -->
+                <div class="quick-info">
+                    <h3>Related Opportunities</h3>
+                    <div style="padding: 10px 0; border-bottom: 1px solid #e8e8e8;">
+                        <a href="#" style="color: #4A90E2; text-decoration: none; font-weight: 600; font-size: 14px;">Data Analyst Jobs 2025</a>
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Fresh openings</p>
+                    </div>
+                    <div style="padding: 10px 0; border-bottom: 1px solid #e8e8e8;">
+                        <a href="#" style="color: #4A90E2; text-decoration: none; font-weight: 600; font-size: 14px;">Product Manager Roles</a>
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Multiple companies</p>
+                    </div>
+                    <div style="padding: 10px 0;">
+                        <a href="#" style="color: #4A90E2; text-decoration: none; font-weight: 600; font-size: 14px;">DevOps Engineer Hiring</a>
+                        <p style="font-size: 12px; color: #666; margin-top: 5px;">Remote available</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bottom Navigation -->
-    <div class="bottom-nav">
-        <div class="nav-item active">
-            <i class="fas fa-home nav-icon"></i>
-            <span class="nav-label">Home</span>
+    <!-- Bottom Ad -->
+    <div class="container">
+        <div class="ad-banner inline">
+            📢 Advertisement Space - Bottom (728x90 or Responsive)
         </div>
-        <div class="nav-item">
-            <i class="fas fa-search nav-icon"></i>
-            <span class="nav-label">Search</span>
-        </div>
-        <div class="nav-item">
-            <i class="fas fa-bookmark nav-icon"></i>
-            <span class="nav-label">Saved</span>
-        </div>
-        <div class="nav-item">
-            <i class="fas fa-comments nav-icon"></i>
-            <span class="nav-label">Messages</span>
-        </div>
-        <div class="nav-item">
-            <i class="fas fa-user nav-icon"></i>
-            <span class="nav-label">Profile</span>
-        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p style="font-size: 16px; font-weight: 600; margin-bottom: 10px;">JobBroom - Career Opportunities Simplified</p>
+        <p style="font-size: 14px; opacity: 0.9; margin-bottom: 15px;">Helping job seekers discover and prepare for opportunities</p>
+        <p style="font-size: 12px; opacity: 0.8; line-height: 1.6; max-width: 600px; margin: 0 auto;">
+            JobBroom is an independent career information platform. We are not affiliated with any companies mentioned on our website. All company names and trademarks are property of their respective owners.
+        </p>
+        <p style="font-size: 12px; margin-top: 15px; opacity: 0.8;">© 2025 JobBroom. All rights reserved.</p>
+    </div>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
     </div>
 
     <script>
-        // Create particles
-        function createParticles() {
-            const container = document.getElementById('particles');
-            for (let i = 0; i < 20; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.top = Math.random() * 100 + '%';
-                particle.style.animationDelay = Math.random() * 8 + 's';
-                particle.style.animationDuration = (Math.random() * 6 + 6) + 's';
-                container.appendChild(particle);
+        // Accordion Toggle
+        function toggleAccordion(header) {
+            const item = header.parentElement;
+            const isActive = item.classList.contains('active');
+            
+            // Close all accordions
+            document.querySelectorAll('.accordion-item').forEach(acc => {
+                acc.classList.remove('active');
+            });
+            
+            // Open clicked accordion if it wasn't active
+            if (!isActive) {
+                item.classList.add('active');
             }
         }
 
-        // Card swipe functionality
-        let startX, startY, currentX, currentY;
-        let isDragging = false;
-        let currentCard = null;
-
-        document.addEventListener('DOMContentLoaded', function() {
-            createParticles();
-            initializeCards();
-            updateCharCount();
-        });
-
-        function initializeCards() {
-            const cards = document.querySelectorAll('.employee-card');
-            cards.forEach(card => {
-                card.addEventListener('mousedown', handleDragStart);
-                card.addEventListener('touchstart', handleDragStart, { passive: true });
+        // Scroll to Top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
-
-            document.addEventListener('mousemove', handleDragMove);
-            document.addEventListener('touchmove', handleDragMove, { passive: false });
-            
-            document.addEventListener('mouseup', handleDragEnd);
-            document.addEventListener('touchend', handleDragEnd);
         }
 
-        function handleDragStart(e) {
-            if (e.target.closest('.action-btn')) return;
-            
-            currentCard = e.currentTarget;
-            if (currentCard !== document.querySelector('.employee-card:first-child')) return;
-            
-            isDragging = true;
-            const touch = e.type === 'touchstart' ? e.touches[0] : e;
-            startX = touch.clientX;
-            startY = touch.clientY;
-            currentCard.classList.add('swiping');
-        }
-
-        function handleDragMove(e) {
-            if (!isDragging || !currentCard) return;
-            
-            const touch = e.type === 'touchmove' ? e.touches[0] : e;
-            currentX = touch.clientX;
-            currentY = touch.clientY;
-            
-            const deltaX = currentX - startX;
-            const deltaY = currentY - startY;
-            const rotate = deltaX * 0.1;
-            
-            currentCard.style.transform = `translate(${deltaX}px, ${deltaY}px) rotate(${rotate}deg)`;
-            currentCard.style.opacity = 1 - Math.abs(deltaX) / 300;
-        }
-
-        function handleDragEnd(e) {
-            if (!isDragging || !currentCard) return;
-            
-            isDragging = false;
-            const deltaX = currentX - startX;
-            
-            currentCard.classList.remove('swiping');
-            
-            if (Math.abs(deltaX) > 100) {
-                if (deltaX > 0) {
-                    swipeCard('right');
-                } else {
-                    swipeCard('left');
-                }
+        // Show/Hide Scroll to Top button
+        window.addEventListener('scroll', function() {
+            const scrollTop = document.getElementById('scrollTop');
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('visible');
             } else {
-                currentCard.style.transform = '';
-                currentCard.style.opacity = '';
+                scrollTop.classList.remove('visible');
             }
-            
-            currentCard = null;
-        }
-
-        function swipeCard(direction) {
-            const topCard = document.querySelector('.employee-card:first-child');
-            if (!topCard) return;
-            
-            topCard.classList.add(direction === 'right' ? 'swiped-right' : 'swiped-left');
-            
-            setTimeout(() => {
-                topCard.remove();
-                checkIfNoCards();
-            }, 500);
-        }
-
-        function checkIfNoCards() {
-            const remainingCards = document.querySelectorAll('.employee-card');
-            if (remainingCards.length === 0) {
-                document.getElementById('noCards').style.display = 'block';
-            }
-        }
-
-        function reloadCards() {
-            location.reload();
-        }
-
-        function saveProfile() {
-            alert('Profile saved! You can view it in your Saved section.');
-        }
-
-        function messageProfile() {
-            alert('Unlock messaging with Premium or use coins to send messages.');
-        }
-
-        function openConnectionModal() {
-            document.getElementById('connectionModal').classList.add('active');
-        }
-
-        function closeConnectionModal() {
-            document.getElementById('connectionModal').classList.remove('active');
-        }
-
-        function selectRequestType(type) {
-            document.querySelectorAll('.request-option').forEach(opt => {
-                opt.classList.remove('selected');
-            });
-            event.currentTarget.classList.add('selected');
-        }
-
-        function sendConnectionRequest() {
-            const note = document.getElementById('personalNote').value;
-            const resume = document.getElementById('resumeSelect').value;
-            
-            closeConnectionModal();
-            
-            // Show success message
-            alert('✅ Connection request sent successfully! The referrer will review your profile and get back to you.');
-            
-            // Remove the card
-            swipeCard('right');
-        }
-
-        function updateCharCount() {
-            const textarea = document.getElementById('personalNote');
-            const charCount = document.getElementById('charCount');
-            
-            textarea.addEventListener('input', function() {
-                charCount.textContent = this.value.length;
-            });
-        }
-
-        // Filter chips functionality
-        document.querySelectorAll('.filter-chip').forEach(chip => {
-            chip.addEventListener('click', function() {
-                document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-                this.classList.add('active');
-            });
         });
 
-        // Bottom nav functionality
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function() {
-                document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
-                this.classList.add('active');
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             });
         });
     </script>
 </body>
 </html>
-        </div>
-        <div class="header-right">
-            <div class="icon-btn" onclick="alert('Filter options coming soon!')">
-                <i class="fas fa-sliders-h"></i>
-            </div>
-            <div class="icon-btn" onclick="alert('Notifications')">
-                <i class="fas fa-bell"></i>
-                <span class="badge">3</span>
-            </div>
-        </div>
-    </div>
